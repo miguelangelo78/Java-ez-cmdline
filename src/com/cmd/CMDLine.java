@@ -150,6 +150,9 @@ public class CMDLine {
 		opt.value = value;
 		opt.supported = supported;
 		optionsParsed.add(opt);
+		
+		if(flag.equals("help"))
+			help(); /* Trigger help */
 	}
 
 	private static boolean isFlagValid(String flag, String value, boolean isSingle) {
