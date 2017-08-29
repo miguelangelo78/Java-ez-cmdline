@@ -73,7 +73,7 @@ System.out.println("\nParsed flags: ");
 CMDLine.dumpParsed();
 ```
 
-# Command formats
+# Flag formats
 The formats supported by the library are:
 
 * ```-c``` (This is a single character flag)
