@@ -93,6 +93,8 @@ public class CMDLine {
 		optionsSupported = new ArrayList<Option>();
 		optionsParsed = new ArrayList<Option>();
 		initialized = true;
+		
+		CMDLine.addFlags("help", "Display this help message");
 	}
 	
 	private static char isOption(String opt) {
