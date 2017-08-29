@@ -39,7 +39,6 @@ public class CMDLine {
 		public Option(char flag, String description) {
 			init(flag + "", description);
 			isSingle = true;
-
 		}
 		
 		public Option(String flag, String description) {
